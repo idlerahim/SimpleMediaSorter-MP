@@ -1,12 +1,12 @@
 # Build directories
-# build/
-# bin/
-# *.exe
-# *.dll
-# *.o
-# *.obj
-# *.a
-# *.lib
+build/
+bin/
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
 
 # Editor settings
 .vscode/
