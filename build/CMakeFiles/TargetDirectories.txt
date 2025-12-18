@@ -1,5 +1,0 @@
-C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/SimpleMediaSorter-MP.dir
-C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/edit_cache.dir
-C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/rebuild_cache.dir
-C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/SimpleMediaSorter-MP_autogen_timestamp_deps.dir
-C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/SimpleMediaSorter-MP_autogen.dir
