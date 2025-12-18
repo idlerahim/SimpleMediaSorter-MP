@@ -86,11 +86,19 @@ if ($LASTEXITCODE -ne 0) { Write-Error "Build failed."; exit 1 }
 
 Write-Host "`nBuild successful!" -ForegroundColor Green
 
+# Deployment
+Write-Host "Deploying dependencies (windeployqt)..." -ForegroundColor Cyan
+$ExePath = ".\$ExeName"
+if (Test-Path $ExePath) {
+    $Windeployqt = Join-Path "$QtBinPath" "windeployqt.exe"
+    & $Windeployqt --release --compiler-runtime $ExePath
+}
+
 # -----------------------------------------------------------------------------
 # RUN
 # -----------------------------------------------------------------------------
 
-$ExeName = "SMSorter.exe" # Based on CMakeLists.txt project name
+$ExeName = "SimpleMediaSorter-MP.exe" # Based on CMakeLists.txt project name
 if (Test-Path $ExeName) {
     Write-Host "Launching $ExeName..." -ForegroundColor Cyan
     & ".\$ExeName"

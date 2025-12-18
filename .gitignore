@@ -1,0 +1,24 @@
+# Build directories
+build/
+bin/
+*.exe
+*.dll
+*.o
+*.obj
+*.a
+*.lib
+
+# Editor settings
+.vscode/
+.idea/
+*.user
+
+# Artifacts
+*.aps
+*.idb
+*.pdb
+*.ilk
+
+# Temporary files
+*.tmp
+*.log

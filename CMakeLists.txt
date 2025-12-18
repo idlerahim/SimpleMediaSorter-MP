@@ -1,6 +1,6 @@
 cmake_minimum_required(VERSION 3.16)
 
-project(SMSorter VERSION 1.0.0.5 LANGUAGES CXX)
+project(SimpleMediaSorter-MP VERSION 1.0.0.5 LANGUAGES CXX)
 
 set(CMAKE_CXX_STANDARD 20)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
@@ -62,16 +62,20 @@ set(HEADERS
     src/workers/FFmpegWorker.h
 )
 
-add_executable(SMSorter
+add_executable(SimpleMediaSorter-MP
     ${SOURCES}
     ${HEADERS}
+    resources.rc
 )
 
-target_link_libraries(SMSorter PRIVATE
+target_link_libraries(SimpleMediaSorter-MP PRIVATE
     Qt6::Widgets
     Qt6::Sql
     Qt6::Concurrent
 )
+
+# Copy icon to build directory
+file(COPY ${CMAKE_SOURCE_DIR}/SimpleMediaSorter-MP_icon.png DESTINATION ${CMAKE_BINARY_DIR})
 
 # Create a resource file if needed later
 # qt_add_resources(SMSorter "resources"

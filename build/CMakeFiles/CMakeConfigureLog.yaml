@@ -63,6 +63,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -145,6 +147,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -199,6 +203,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -244,7 +250,7 @@ events:
       Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.exe"
       
       The CXX compiler identification is GNU, found in:
-        C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/4.2.0/CompilerIdCXX/a.exe
+        C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/4.2.0/CompilerIdCXX/a.exe
       
   -
     kind: "find-v1"
@@ -296,6 +302,8 @@ events:
     found: "C:/Qt/Tools/mingw1310_64/bin/ar.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -375,6 +383,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -450,6 +460,8 @@ events:
     found: "C:/Qt/Tools/mingw1310_64/bin/strip.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -529,6 +541,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -604,6 +618,8 @@ events:
     found: "C:/Qt/Tools/mingw1310_64/bin/nm.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -683,6 +699,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -758,6 +776,8 @@ events:
     found: "C:/Qt/Tools/mingw1310_64/bin/objcopy.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -837,6 +857,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -914,6 +936,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -989,6 +1013,8 @@ events:
     found: "C:/Qt/Tools/mingw1310_64/bin/addr2line.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -1140,6 +1166,8 @@ events:
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -1447,6 +1475,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1752,6 +1782,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -1834,14 +1866,16 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/SMSorter/bin/"
-      - "C:/Program Files (x86)/SMSorter/sbin/"
-      - "C:/Program Files (x86)/SMSorter/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/"
     searched_directories:
       - "C:/Qt/Tools/mingw1310_64/bin/windres.com"
     found: "C:/Qt/Tools/mingw1310_64/bin/windres.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -1869,12 +1903,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -1884,8 +1918,8 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-istt3v"
-      binary: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-istt3v"
+      source: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-u3lhjg"
+      binary: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-u3lhjg"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -1895,13 +1929,13 @@ events:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-istt3v'
+        Change Dir: 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-u3lhjg'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_26824/fast
-        C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_26824.dir\\build.make CMakeFiles/cmTC_26824.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-istt3v'
-        Building CXX object CMakeFiles/cmTC_26824.dir/CMakeCXXCompilerABI.cpp.obj
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_5de45/fast
+        C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5de45.dir\\build.make CMakeFiles/cmTC_5de45.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-u3lhjg'
+        Building CXX object CMakeFiles/cmTC_5de45.dir/CMakeCXXCompilerABI.cpp.obj
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"
         Using built-in specs.
         COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe
         Target: x86_64-w64-mingw32
@@ -1909,8 +1943,8 @@ events:
         Thread model: posix
         Supported LTO compression algorithms: zlib
         gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_26824.dir\\'
-         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_26824.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\ar\\AppData\\Local\\Temp\\ccAa2gCn.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5de45.dir\\'
+         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_5de45.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\ar\\AppData\\Local\\Temp\\ccAKBdmD.s
         GNU C++17 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)
         	compiled by GNU C version 13.1.0, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.1, isl version isl-0.25-GMP
         
@@ -1933,14 +1967,14 @@ events:
          C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include
         End of search list.
         Compiler executable checksum: b3d236387f35294e2a73c51628039e05
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_26824.dir\\'
-         C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ar\\AppData\\Local\\Temp\\ccAa2gCn.s
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5de45.dir\\'
+         C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ar\\AppData\\Local\\Temp\\ccAKBdmD.s
         GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39
         COMPILER_PATH=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.'
-        Linking CXX executable cmTC_26824.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_26824.dir\\link.txt --verbose=1
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_5de45.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5de45.dir\\link.txt --verbose=1
         Using built-in specs.
         COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe
         COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe
@@ -1951,16 +1985,16 @@ events:
         gcc version 13.1.0 (x86_64-posix-seh-rev1, Built by MinGW-Builds project) 
         COMPILER_PATH=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/
         LIBRARY_PATH=C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/;C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_26824.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_26824.'
-         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\cckQ5LBI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_26824.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_26824.dir/objects.a --no-whole-archive --out-implib libcmTC_26824.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5de45.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_5de45.'
+         C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\ccMuxR0R.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_5de45.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5de45.dir/objects.a --no-whole-archive --out-implib libcmTC_5de45.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         collect2 version 13.1.0
-        C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\cckQ5LBI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_26824.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_26824.dir/objects.a --no-whole-archive --out-implib libcmTC_26824.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
+        C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/ld.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\ccMuxR0R.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_5de45.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5de45.dir/objects.a --no-whole-archive --out-implib libcmTC_5de45.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o
         GNU ld (GNU Binutils) 2.39
-        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_26824.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_26824.'
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_26824.dir/objects.a
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_26824.dir/objects.a @CMakeFiles\\cmTC_26824.dir\\objects1.rsp
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_26824.dir/objects.a -Wl,--no-whole-archive -o cmTC_26824.exe -Wl,--out-implib,libcmTC_26824.dll.a -Wl,--major-image-version,0,--minor-image-version,0
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-istt3v'
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5de45.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_5de45.'
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_5de45.dir/objects.a
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_5de45.dir/objects.a @CMakeFiles\\cmTC_5de45.dir\\objects1.rsp
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe  -v -Wl,-v -Wl,--whole-archive CMakeFiles\\cmTC_5de45.dir/objects.a -Wl,--no-whole-archive -o cmTC_5de45.exe -Wl,--out-implib,libcmTC_5de45.dll.a -Wl,--major-image-version,0,--minor-image-version,0
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-u3lhjg'
         
       exitCode: 0
   -
@@ -1999,13 +2033,13 @@ events:
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
         linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
-        ignore line: [Change Dir: 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-istt3v']
+        ignore line: [Change Dir: 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-u3lhjg']
         ignore line: []
-        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_26824/fast]
-        ignore line: [C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_26824.dir\\build.make CMakeFiles/cmTC_26824.dir/build]
-        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-istt3v']
-        ignore line: [Building CXX object CMakeFiles/cmTC_26824.dir/CMakeCXXCompilerABI.cpp.obj]
-        ignore line: [C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
+        ignore line: [Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_5de45/fast]
+        ignore line: [C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_5de45.dir\\build.make CMakeFiles/cmTC_5de45.dir/build]
+        ignore line: [mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-u3lhjg']
+        ignore line: [Building CXX object CMakeFiles/cmTC_5de45.dir/CMakeCXXCompilerABI.cpp.obj]
+        ignore line: [C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe   -v -o CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj -c "C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp"]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe]
         ignore line: [Target: x86_64-w64-mingw32]
@@ -2013,8 +2047,8 @@ events:
         ignore line: [Thread model: posix]
         ignore line: [Supported LTO compression algorithms: zlib]
         ignore line: [gcc version 13.1.0 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_26824.dir\\']
-        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_26824.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\ar\\AppData\\Local\\Temp\\ccAa2gCn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5de45.dir\\']
+        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/cc1plus.exe -quiet -v -iprefix C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/ -D_REENTRANT C:\\Program Files\\CMake\\share\\cmake-4.2\\Modules\\CMakeCXXCompilerABI.cpp -quiet -dumpdir CMakeFiles\\cmTC_5de45.dir\\ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mtune=core2 -march=nocona -version -o C:\\Users\\ar\\AppData\\Local\\Temp\\ccAKBdmD.s]
         ignore line: [GNU C++17 (x86_64-posix-seh-rev1  Built by MinGW-Builds project) version 13.1.0 (x86_64-w64-mingw32)]
         ignore line: [	compiled by GNU C version 13.1.0  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.1  isl version isl-0.25-GMP]
         ignore line: []
@@ -2037,8 +2071,8 @@ events:
         ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include]
         ignore line: [End of search list.]
         ignore line: [Compiler executable checksum: b3d236387f35294e2a73c51628039e05]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_26824.dir\\']
-        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ar\\AppData\\Local\\Temp\\ccAa2gCn.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5de45.dir\\']
+        ignore line: [ C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/bin/as.exe -v -o CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj C:\\Users\\ar\\AppData\\Local\\Temp\\ccAKBdmD.s]
         ignore line: [GNU assembler version 2.39 (x86_64-w64-mingw32) using BFD version (GNU Binutils) 2.39]
         ignore line: [COMPILER_PATH=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/]
@@ -2049,9 +2083,9 @@ events:
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_26824.dir\\CMakeCXXCompilerABI.cpp.']
-        ignore line: [Linking CXX executable cmTC_26824.exe]
-        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_26824.dir\\link.txt --verbose=1]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.obj' '-c' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'CMakeFiles\\cmTC_5de45.dir\\CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_5de45.exe]
+        ignore line: ["C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_5de45.dir\\link.txt --verbose=1]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe]
         ignore line: [COLLECT_LTO_WRAPPER=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe]
@@ -2069,13 +2103,13 @@ events:
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/]
         ignore line: [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../]
-        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_26824.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_26824.']
-        link line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\cckQ5LBI.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_26824.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_26824.dir/objects.a --no-whole-archive --out-implib libcmTC_26824.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5de45.exe' '-shared-libgcc' '-mtune=core2' '-march=nocona' '-dumpdir' 'cmTC_5de45.']
+        link line: [ C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe -plugin C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll -plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe -plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\ccMuxR0R.res -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-lpthread -plugin-opt=-pass-through=-ladvapi32 -plugin-opt=-pass-through=-lshell32 -plugin-opt=-pass-through=-luser32 -plugin-opt=-pass-through=-lkernel32 -plugin-opt=-pass-through=-liconv -plugin-opt=-pass-through=-lmingw32 -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lmoldname -plugin-opt=-pass-through=-lmingwex -plugin-opt=-pass-through=-lmsvcrt -plugin-opt=-pass-through=-lkernel32 --sysroot=C:/buildroot/x86_64-1310-posix-seh-msvcrt-rt_v11-rev1/mingw64 -m i386pep -Bdynamic -o cmTC_5de45.exe C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0 -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib -LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../.. -v --whole-archive CMakeFiles\\cmTC_5de45.dir/objects.a --no-whole-archive --out-implib libcmTC_5de45.dll.a --major-image-version 0 --minor-image-version 0 -lstdc++ -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 -lpthread -ladvapi32 -lshell32 -luser32 -lkernel32 -liconv -lmingw32 -lgcc_s -lgcc -lmoldname -lmingwex -lmsvcrt -lkernel32 C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtend.o]
           arg [C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/collect2.exe] ==> ignore
           arg [-plugin] ==> ignore
           arg [C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/liblto_plugin.dll] ==> ignore
           arg [-plugin-opt=C:/Qt/Tools/mingw1310_64/bin/../libexec/gcc/x86_64-w64-mingw32/13.1.0/lto-wrapper.exe] ==> ignore
-          arg [-plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\cckQ5LBI.res] ==> ignore
+          arg [-plugin-opt=-fresolution=C:\\Users\\ar\\AppData\\Local\\Temp\\ccMuxR0R.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lmingw32] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
@@ -2101,7 +2135,7 @@ events:
           arg [i386pep] ==> ignore
           arg [-Bdynamic] ==> search dynamic
           arg [-o] ==> ignore
-          arg [cmTC_26824.exe] ==> ignore
+          arg [cmTC_5de45.exe] ==> ignore
           arg [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o] ==> obj [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/lib/../lib/crt2.o]
           arg [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o] ==> obj [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/crtbegin.o]
           arg [-LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0] ==> dir [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0]
@@ -2112,10 +2146,10 @@ events:
           arg [-LC:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..] ==> dir [C:/Qt/Tools/mingw1310_64/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../..]
           arg [-v] ==> ignore
           arg [--whole-archive] ==> ignore
-          arg [CMakeFiles\\cmTC_26824.dir/objects.a] ==> ignore
+          arg [CMakeFiles\\cmTC_5de45.dir/objects.a] ==> ignore
           arg [--no-whole-archive] ==> ignore
           arg [--out-implib] ==> ignore
-          arg [libcmTC_26824.dll.a] ==> ignore
+          arg [libcmTC_5de45.dll.a] ==> ignore
           arg [--major-image-version] ==> ignore
           arg [0] ==> ignore
           arg [--minor-image-version] ==> ignore
@@ -2206,8 +2240,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-ee95y1"
-      binary: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-ee95y1"
+      source: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-sit9uu"
+      binary: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-sit9uu"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2217,19 +2251,19 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-ee95y1'
+        Change Dir: 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-sit9uu'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_a510f/fast
-        C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_a510f.dir\\build.make CMakeFiles/cmTC_a510f.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-ee95y1'
-        Building CXX object CMakeFiles/cmTC_a510f.dir/src.cxx.obj
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles\\cmTC_a510f.dir\\src.cxx.obj -c C:\\Users\\ar\\Downloads\\TestApp\\SMSorter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-ee95y1\\src.cxx
-        Linking CXX executable cmTC_a510f.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_a510f.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_a510f.dir/objects.a
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_a510f.dir/objects.a @CMakeFiles\\cmTC_a510f.dir\\objects1.rsp
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_a510f.dir/objects.a -Wl,--no-whole-archive -o cmTC_a510f.exe -Wl,--out-implib,libcmTC_a510f.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_a510f.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-ee95y1'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_33c80/fast
+        C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_33c80.dir\\build.make CMakeFiles/cmTC_33c80.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-sit9uu'
+        Building CXX object CMakeFiles/cmTC_33c80.dir/src.cxx.obj
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++20 -o CMakeFiles\\cmTC_33c80.dir\\src.cxx.obj -c C:\\Users\\ar\\Downloads\\TestApp\\SimpleMediaSorter-MP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-sit9uu\\src.cxx
+        Linking CXX executable cmTC_33c80.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_33c80.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_33c80.dir/objects.a
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_33c80.dir/objects.a @CMakeFiles\\cmTC_33c80.dir\\objects1.rsp
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_33c80.dir/objects.a -Wl,--no-whole-archive -o cmTC_33c80.exe -Wl,--out-implib,libcmTC_33c80.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_33c80.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-sit9uu'
         
       exitCode: 0
   -
@@ -2280,11 +2314,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6CoreToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6coretools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2309,6 +2343,8 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -2336,12 +2372,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2390,11 +2426,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6GuiToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6guitools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2419,6 +2455,8 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -2446,12 +2484,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2497,11 +2535,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6WidgetsToolsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6widgetstools-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2526,6 +2564,8 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -2553,12 +2593,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "try_compile-v1"
     backtrace:
@@ -2580,8 +2620,8 @@ events:
     checks:
       - "Performing Test HAVE_STDATOMIC"
     directories:
-      source: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-4e6f7q"
-      binary: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-4e6f7q"
+      source: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-1tyoig"
+      binary: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-1tyoig"
     cmakeVariables:
       CMAKE_CXX_FLAGS: ""
       CMAKE_CXX_FLAGS_DEBUG: "-g"
@@ -2591,19 +2631,19 @@ events:
       variable: "HAVE_STDATOMIC"
       cached: true
       stdout: |
-        Change Dir: 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-4e6f7q'
+        Change Dir: 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-1tyoig'
         
-        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_2de94/fast
-        C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_2de94.dir\\build.make CMakeFiles/cmTC_2de94.dir/build
-        mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-4e6f7q'
-        Building CXX object CMakeFiles/cmTC_2de94.dir/src.cxx.obj
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DHAVE_STDATOMIC  -std=gnu++20 -o CMakeFiles\\cmTC_2de94.dir\\src.cxx.obj -c C:\\Users\\ar\\Downloads\\TestApp\\SMSorter\\build\\CMakeFiles\\CMakeScratch\\TryCompile-4e6f7q\\src.cxx
-        Linking CXX executable cmTC_2de94.exe
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_2de94.dir\\link.txt --verbose=1
-        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_2de94.dir/objects.a
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_2de94.dir/objects.a @CMakeFiles\\cmTC_2de94.dir\\objects1.rsp
-        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_2de94.dir/objects.a -Wl,--no-whole-archive -o cmTC_2de94.exe -Wl,--out-implib,libcmTC_2de94.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_2de94.dir\\linkLibs.rsp
-        mingw32-make.exe[1]: Leaving directory 'C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/CMakeScratch/TryCompile-4e6f7q'
+        Run Build Command(s): "C:/Program Files/CMake/bin/cmake.exe" -E env VERBOSE=1 C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe -f Makefile cmTC_187ce/fast
+        C:/Qt/Tools/mingw1310_64/bin/mingw32-make.exe  -f CMakeFiles\\cmTC_187ce.dir\\build.make CMakeFiles/cmTC_187ce.dir/build
+        mingw32-make.exe[1]: Entering directory 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-1tyoig'
+        Building CXX object CMakeFiles/cmTC_187ce.dir/src.cxx.obj
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -DHAVE_STDATOMIC  -std=gnu++20 -o CMakeFiles\\cmTC_187ce.dir\\src.cxx.obj -c C:\\Users\\ar\\Downloads\\TestApp\\SimpleMediaSorter-MP\\build\\CMakeFiles\\CMakeScratch\\TryCompile-1tyoig\\src.cxx
+        Linking CXX executable cmTC_187ce.exe
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E cmake_link_script CMakeFiles\\cmTC_187ce.dir\\link.txt --verbose=1
+        "C:\\Program Files\\CMake\\bin\\cmake.exe" -E rm -f CMakeFiles\\cmTC_187ce.dir/objects.a
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\ar.exe qc CMakeFiles\\cmTC_187ce.dir/objects.a @CMakeFiles\\cmTC_187ce.dir\\objects1.rsp
+        C:\\Qt\\Tools\\mingw1310_64\\bin\\c++.exe -Wl,--whole-archive CMakeFiles\\cmTC_187ce.dir/objects.a -Wl,--no-whole-archive -o cmTC_187ce.exe -Wl,--out-implib,libcmTC_187ce.dll.a -Wl,--major-image-version,0,--minor-image-version,0 @CMakeFiles\\cmTC_187ce.dir\\linkLibs.rsp
+        mingw32-make.exe[1]: Leaving directory 'C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/CMakeScratch/TryCompile-1tyoig'
         
       exitCode: 0
   -
@@ -2658,11 +2698,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6EntryPointPrivateConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6entrypointprivate-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2679,6 +2719,8 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -2706,12 +2748,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find-v1"
     backtrace:
@@ -2773,14 +2815,16 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/SMSorter/bin/"
-      - "C:/Program Files (x86)/SMSorter/sbin/"
-      - "C:/Program Files (x86)/SMSorter/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/"
     searched_directories:
       - "C:/Qt/6.10.1/mingw_64/bin/windeployqt.com"
     found: "C:/Qt/6.10.1/mingw_64/bin/windeployqt.exe"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -2808,12 +2852,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -2861,11 +2905,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6CoreConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6core-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -2900,6 +2944,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -2925,12 +2971,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find-v1"
     backtrace:
@@ -2992,8 +3038,8 @@ events:
       - "C:/Program Files (x86)/"
       - "C:/Program Files/CMake/include/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/SMSorter/include/"
-      - "C:/Program Files (x86)/SMSorter/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/include/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/"
     searched_directories:
       - "/include/vulkan/vulkan.h"
       - "C:/Qt/Tools/mingw1310_64/bin/vulkan/vulkan.h"
@@ -3027,11 +3073,13 @@ events:
       - "C:/Program Files (x86)/vulkan/vulkan.h"
       - "C:/Program Files/CMake/include/vulkan/vulkan.h"
       - "C:/Program Files/CMake/vulkan/vulkan.h"
-      - "C:/Program Files (x86)/SMSorter/include/vulkan/vulkan.h"
-      - "C:/Program Files (x86)/SMSorter/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/include/vulkan/vulkan.h"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/vulkan/vulkan.h"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -3059,12 +3107,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find-v1"
     backtrace:
@@ -3127,9 +3175,9 @@ events:
       - "C:/Program Files (x86)/"
       - "C:/Program Files/CMake/lib/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/SMSorter/lib/"
-      - "C:/Program Files (x86)/SMSorter/"
-      - "C:/Program Files (x86)/SMSorter/bin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/lib/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/"
     searched_directories:
       - "/lib/"
       - "/bin/"
@@ -3164,12 +3212,14 @@ events:
       - "C:/Program Files (x86)/"
       - "C:/Program Files/CMake/lib/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/SMSorter/lib/"
-      - "C:/Program Files (x86)/SMSorter/"
-      - "C:/Program Files (x86)/SMSorter/bin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/lib/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -3197,14 +3247,14 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_LIBRARY_PATH:
-        - "C:/Program Files (x86)/SMSorter/bin"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin"
         - "C:/Program Files/CMake/bin"
         - "/bin"
   -
@@ -3271,9 +3321,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/SMSorter/bin/"
-      - "C:/Program Files (x86)/SMSorter/sbin/"
-      - "C:/Program Files (x86)/SMSorter/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/"
     searched_directories:
       - "/bin/glslc.com"
       - "/bin/glslc.exe"
@@ -3380,18 +3430,20 @@ events:
       - "C:/Program Files/CMake/glslc.com"
       - "C:/Program Files/CMake/glslc.exe"
       - "C:/Program Files/CMake/glslc"
-      - "C:/Program Files (x86)/SMSorter/bin/glslc.com"
-      - "C:/Program Files (x86)/SMSorter/bin/glslc.exe"
-      - "C:/Program Files (x86)/SMSorter/bin/glslc"
-      - "C:/Program Files (x86)/SMSorter/sbin/glslc.com"
-      - "C:/Program Files (x86)/SMSorter/sbin/glslc.exe"
-      - "C:/Program Files (x86)/SMSorter/sbin/glslc"
-      - "C:/Program Files (x86)/SMSorter/glslc.com"
-      - "C:/Program Files (x86)/SMSorter/glslc.exe"
-      - "C:/Program Files (x86)/SMSorter/glslc"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/glslc.com"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/glslc.exe"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/glslc"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/glslc.com"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/glslc.exe"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/glslc"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/glslc.com"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/glslc.exe"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/glslc"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -3419,12 +3471,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find-v1"
     backtrace:
@@ -3489,9 +3541,9 @@ events:
       - "C:/Program Files/CMake/bin/"
       - "C:/Program Files/CMake/sbin/"
       - "C:/Program Files/CMake/"
-      - "C:/Program Files (x86)/SMSorter/bin/"
-      - "C:/Program Files (x86)/SMSorter/sbin/"
-      - "C:/Program Files (x86)/SMSorter/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/"
     searched_directories:
       - "/bin/glslangValidator.com"
       - "/bin/glslangValidator.exe"
@@ -3598,18 +3650,20 @@ events:
       - "C:/Program Files/CMake/glslangValidator.com"
       - "C:/Program Files/CMake/glslangValidator.exe"
       - "C:/Program Files/CMake/glslangValidator"
-      - "C:/Program Files (x86)/SMSorter/bin/glslangValidator.com"
-      - "C:/Program Files (x86)/SMSorter/bin/glslangValidator.exe"
-      - "C:/Program Files (x86)/SMSorter/bin/glslangValidator"
-      - "C:/Program Files (x86)/SMSorter/sbin/glslangValidator.com"
-      - "C:/Program Files (x86)/SMSorter/sbin/glslangValidator.exe"
-      - "C:/Program Files (x86)/SMSorter/sbin/glslangValidator"
-      - "C:/Program Files (x86)/SMSorter/glslangValidator.com"
-      - "C:/Program Files (x86)/SMSorter/glslangValidator.exe"
-      - "C:/Program Files (x86)/SMSorter/glslangValidator"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/glslangValidator.com"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/glslangValidator.exe"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/bin/glslangValidator"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/glslangValidator.com"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/glslangValidator.exe"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/sbin/glslangValidator"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/glslangValidator.com"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/glslangValidator.exe"
+      - "C:/Program Files (x86)/SimpleMediaSorter-MP/glslangValidator"
     found: false
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -3637,12 +3691,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -3690,11 +3744,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6GuiConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6gui-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3729,6 +3783,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -3754,12 +3810,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -3799,11 +3855,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6WidgetsConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6widgets-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3838,6 +3894,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -3863,12 +3921,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -3908,11 +3966,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6SqlConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6SqlConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6sql-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6sql-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -3937,6 +3995,8 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -3964,12 +4024,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -4009,11 +4069,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6ConcurrentConfig.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6ConcurrentConfig.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6concurrent-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6concurrent-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -4030,6 +4090,8 @@ events:
       version: "6.10.1"
     search_context:
       ENV{PATH}:
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
@@ -4057,12 +4119,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
   -
     kind: "find_package-v1"
     backtrace:
@@ -4112,11 +4174,11 @@ events:
         CMAKE_FIND_ROOT_PATH_MODE: "BOTH"
     candidates:
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/Qt6Config.cmake"
         mode: "config"
         reason: "no_exist"
       -
-        path: "C:/Users/ar/Downloads/TestApp/SMSorter/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
+        path: "C:/Users/ar/Downloads/TestApp/SimpleMediaSorter-MP/build/CMakeFiles/pkgRedirects/qt6-config.cmake"
         mode: "config"
         reason: "no_exist"
       -
@@ -5815,6 +5877,8 @@ events:
       ENV{PATH}:
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Qt\\6.10.1\\mingw_64\\bin"
+        - "C:\\Qt\\Tools\\mingw1310_64\\bin"
+        - "C:\\Qt\\6.10.1\\mingw_64\\bin"
         - "C:\\Program Files (x86)\\VMware\\VMware Workstation\\bin\\"
         - "C:\\WINDOWS\\system32"
         - "C:\\WINDOWS"
@@ -5840,12 +5904,12 @@ events:
         - "C:\\Users\\ar\\AppData\\Local\\Programs\\Antigravity\\bin"
         - "C:\\Qt\\Tools\\mingw1310_64\\bin"
         - "C:\\Program Files (x86)\\Nmap"
-      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SMSorter"
+      CMAKE_INSTALL_PREFIX: "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_SYSTEM_PREFIX_PATH:
         - "C:/Program Files"
         - "C:/Program Files (x86)"
         - "C:/Program Files/CMake"
-        - "C:/Program Files (x86)/SMSorter"
+        - "C:/Program Files (x86)/SimpleMediaSorter-MP"
       CMAKE_MODULE_PATH:
         - "C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6"
         - "C:/Qt/6.10.1/mingw_64/lib/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules"

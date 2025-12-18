@@ -20,7 +20,7 @@ MainWindow::~MainWindow() {}
 
 void MainWindow::setupUi() {
     resize(1200, 800);
-    setWindowTitle("SMSorter - Premium Media Manager");
+    setWindowTitle("SimpleMediaSorter-MP");
 
     QWidget* centralWidget = new QWidget(this);
     setCentralWidget(centralWidget);
@@ -52,7 +52,7 @@ void MainWindow::setupUi() {
     homeLabel->setStyleSheet("background-color: #1e1e1e;");
     
     // Logo
-    QPixmap logo("MediaSorter.png");
+    QPixmap logo("SimpleMediaSorter-MP_icon.png");
     if (!logo.isNull()) {
         QLabel* logoLbl = new QLabel(this);
         logoLbl->setPixmap(logo.scaled(128, 128, Qt::KeepAspectRatio, Qt::SmoothTransformation));
@@ -67,7 +67,7 @@ void MainWindow::setupUi() {
         QWidget* homeWidget = new QWidget();
         homeWidget->setLayout(homeLayout);
         m_contentArea->addWidget(homeWidget);
-        setWindowIcon(QIcon("MediaSorter.png"));
+        setWindowIcon(QIcon("SimpleMediaSorter-MP_icon.png"));
     } else {
         m_contentArea->addWidget(homeLabel);
     }
@@ -92,7 +92,7 @@ void MainWindow::setupUi() {
     
     // About Page
     QLabel* aboutLabel = new QLabel(
-        "<h2>SMSorter</h2>"
+        "<h2>SimpleMediaSorter-MP</h2>"
         "<p>Version 1.0.0.5</p>"
         "<p>State-of-the-art Media Management Suite.</p>"
         "<p>Copyright 2025</p>", 

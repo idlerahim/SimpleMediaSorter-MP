@@ -56,10 +56,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\ar\Downloads\TestApp\SMSorter
+CMAKE_SOURCE_DIR = C:\Users\ar\Downloads\TestApp\SimpleMediaSorter-MP
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\ar\Downloads\TestApp\SMSorter\build
+CMAKE_BINARY_DIR = C:\Users\ar\Downloads\TestApp\SimpleMediaSorter-MP\build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -86,9 +86,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ar\Downloads\TestApp\SMSorter\build\CMakeFiles C:\Users\ar\Downloads\TestApp\SMSorter\build\\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ar\Downloads\TestApp\SimpleMediaSorter-MP\build\CMakeFiles C:\Users\ar\Downloads\TestApp\SimpleMediaSorter-MP\build\\CMakeFiles\progress.marks
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ar\Downloads\TestApp\SMSorter\build\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\ar\Downloads\TestApp\SimpleMediaSorter-MP\build\CMakeFiles 0
 .PHONY : all
 
 # The main clean target
@@ -116,74 +116,82 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named SMSorter
+# Target rules for targets named SimpleMediaSorter-MP
 
 # Build rule for target.
-SMSorter: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SMSorter
-.PHONY : SMSorter
+SimpleMediaSorter-MP: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleMediaSorter-MP
+.PHONY : SimpleMediaSorter-MP
 
 # fast build rule for target.
-SMSorter/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/build
-.PHONY : SMSorter/fast
+SimpleMediaSorter-MP/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/build
+.PHONY : SimpleMediaSorter-MP/fast
 
 #=============================================================================
-# Target rules for targets named SMSorter_autogen_timestamp_deps
+# Target rules for targets named SimpleMediaSorter-MP_autogen_timestamp_deps
 
 # Build rule for target.
-SMSorter_autogen_timestamp_deps: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SMSorter_autogen_timestamp_deps
-.PHONY : SMSorter_autogen_timestamp_deps
+SimpleMediaSorter-MP_autogen_timestamp_deps: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleMediaSorter-MP_autogen_timestamp_deps
+.PHONY : SimpleMediaSorter-MP_autogen_timestamp_deps
 
 # fast build rule for target.
-SMSorter_autogen_timestamp_deps/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter_autogen_timestamp_deps.dir\build.make CMakeFiles/SMSorter_autogen_timestamp_deps.dir/build
-.PHONY : SMSorter_autogen_timestamp_deps/fast
+SimpleMediaSorter-MP_autogen_timestamp_deps/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP_autogen_timestamp_deps.dir\build.make CMakeFiles/SimpleMediaSorter-MP_autogen_timestamp_deps.dir/build
+.PHONY : SimpleMediaSorter-MP_autogen_timestamp_deps/fast
 
 #=============================================================================
-# Target rules for targets named SMSorter_autogen
+# Target rules for targets named SimpleMediaSorter-MP_autogen
 
 # Build rule for target.
-SMSorter_autogen: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SMSorter_autogen
-.PHONY : SMSorter_autogen
+SimpleMediaSorter-MP_autogen: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 SimpleMediaSorter-MP_autogen
+.PHONY : SimpleMediaSorter-MP_autogen
 
 # fast build rule for target.
-SMSorter_autogen/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter_autogen.dir\build.make CMakeFiles/SMSorter_autogen.dir/build
-.PHONY : SMSorter_autogen/fast
+SimpleMediaSorter-MP_autogen/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP_autogen.dir\build.make CMakeFiles/SimpleMediaSorter-MP_autogen.dir/build
+.PHONY : SimpleMediaSorter-MP_autogen/fast
 
-SMSorter_autogen/mocs_compilation.obj: SMSorter_autogen/mocs_compilation.cpp.obj
-.PHONY : SMSorter_autogen/mocs_compilation.obj
+SimpleMediaSorter-MP_autogen/mocs_compilation.obj: SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.obj
+.PHONY : SimpleMediaSorter-MP_autogen/mocs_compilation.obj
 
 # target to build an object file
-SMSorter_autogen/mocs_compilation.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/SMSorter_autogen/mocs_compilation.cpp.obj
-.PHONY : SMSorter_autogen/mocs_compilation.cpp.obj
+SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.obj
+.PHONY : SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.obj
 
-SMSorter_autogen/mocs_compilation.i: SMSorter_autogen/mocs_compilation.cpp.i
-.PHONY : SMSorter_autogen/mocs_compilation.i
+SimpleMediaSorter-MP_autogen/mocs_compilation.i: SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.i
+.PHONY : SimpleMediaSorter-MP_autogen/mocs_compilation.i
 
 # target to preprocess a source file
-SMSorter_autogen/mocs_compilation.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/SMSorter_autogen/mocs_compilation.cpp.i
-.PHONY : SMSorter_autogen/mocs_compilation.cpp.i
+SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.i
+.PHONY : SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.i
 
-SMSorter_autogen/mocs_compilation.s: SMSorter_autogen/mocs_compilation.cpp.s
-.PHONY : SMSorter_autogen/mocs_compilation.s
+SimpleMediaSorter-MP_autogen/mocs_compilation.s: SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.s
+.PHONY : SimpleMediaSorter-MP_autogen/mocs_compilation.s
 
 # target to generate assembly for a file
-SMSorter_autogen/mocs_compilation.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/SMSorter_autogen/mocs_compilation.cpp.s
-.PHONY : SMSorter_autogen/mocs_compilation.cpp.s
+SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.s
+.PHONY : SimpleMediaSorter-MP_autogen/mocs_compilation.cpp.s
+
+resources.obj: resources.rc.obj
+.PHONY : resources.obj
+
+# target to build an object file
+resources.rc.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/resources.rc.obj
+.PHONY : resources.rc.obj
 
 src/core/DatabaseManager.obj: src/core/DatabaseManager.cpp.obj
 .PHONY : src/core/DatabaseManager.obj
 
 # target to build an object file
 src/core/DatabaseManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/DatabaseManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/DatabaseManager.cpp.obj
 .PHONY : src/core/DatabaseManager.cpp.obj
 
 src/core/DatabaseManager.i: src/core/DatabaseManager.cpp.i
@@ -191,7 +199,7 @@ src/core/DatabaseManager.i: src/core/DatabaseManager.cpp.i
 
 # target to preprocess a source file
 src/core/DatabaseManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/DatabaseManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/DatabaseManager.cpp.i
 .PHONY : src/core/DatabaseManager.cpp.i
 
 src/core/DatabaseManager.s: src/core/DatabaseManager.cpp.s
@@ -199,7 +207,7 @@ src/core/DatabaseManager.s: src/core/DatabaseManager.cpp.s
 
 # target to generate assembly for a file
 src/core/DatabaseManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/DatabaseManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/DatabaseManager.cpp.s
 .PHONY : src/core/DatabaseManager.cpp.s
 
 src/core/ExifToolWrapper.obj: src/core/ExifToolWrapper.cpp.obj
@@ -207,7 +215,7 @@ src/core/ExifToolWrapper.obj: src/core/ExifToolWrapper.cpp.obj
 
 # target to build an object file
 src/core/ExifToolWrapper.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/ExifToolWrapper.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/ExifToolWrapper.cpp.obj
 .PHONY : src/core/ExifToolWrapper.cpp.obj
 
 src/core/ExifToolWrapper.i: src/core/ExifToolWrapper.cpp.i
@@ -215,7 +223,7 @@ src/core/ExifToolWrapper.i: src/core/ExifToolWrapper.cpp.i
 
 # target to preprocess a source file
 src/core/ExifToolWrapper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/ExifToolWrapper.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/ExifToolWrapper.cpp.i
 .PHONY : src/core/ExifToolWrapper.cpp.i
 
 src/core/ExifToolWrapper.s: src/core/ExifToolWrapper.cpp.s
@@ -223,7 +231,7 @@ src/core/ExifToolWrapper.s: src/core/ExifToolWrapper.cpp.s
 
 # target to generate assembly for a file
 src/core/ExifToolWrapper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/ExifToolWrapper.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/ExifToolWrapper.cpp.s
 .PHONY : src/core/ExifToolWrapper.cpp.s
 
 src/core/FFmpegWrapper.obj: src/core/FFmpegWrapper.cpp.obj
@@ -231,7 +239,7 @@ src/core/FFmpegWrapper.obj: src/core/FFmpegWrapper.cpp.obj
 
 # target to build an object file
 src/core/FFmpegWrapper.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/FFmpegWrapper.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/FFmpegWrapper.cpp.obj
 .PHONY : src/core/FFmpegWrapper.cpp.obj
 
 src/core/FFmpegWrapper.i: src/core/FFmpegWrapper.cpp.i
@@ -239,7 +247,7 @@ src/core/FFmpegWrapper.i: src/core/FFmpegWrapper.cpp.i
 
 # target to preprocess a source file
 src/core/FFmpegWrapper.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/FFmpegWrapper.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/FFmpegWrapper.cpp.i
 .PHONY : src/core/FFmpegWrapper.cpp.i
 
 src/core/FFmpegWrapper.s: src/core/FFmpegWrapper.cpp.s
@@ -247,7 +255,7 @@ src/core/FFmpegWrapper.s: src/core/FFmpegWrapper.cpp.s
 
 # target to generate assembly for a file
 src/core/FFmpegWrapper.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/FFmpegWrapper.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/FFmpegWrapper.cpp.s
 .PHONY : src/core/FFmpegWrapper.cpp.s
 
 src/core/JobManager.obj: src/core/JobManager.cpp.obj
@@ -255,7 +263,7 @@ src/core/JobManager.obj: src/core/JobManager.cpp.obj
 
 # target to build an object file
 src/core/JobManager.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/JobManager.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/JobManager.cpp.obj
 .PHONY : src/core/JobManager.cpp.obj
 
 src/core/JobManager.i: src/core/JobManager.cpp.i
@@ -263,7 +271,7 @@ src/core/JobManager.i: src/core/JobManager.cpp.i
 
 # target to preprocess a source file
 src/core/JobManager.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/JobManager.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/JobManager.cpp.i
 .PHONY : src/core/JobManager.cpp.i
 
 src/core/JobManager.s: src/core/JobManager.cpp.s
@@ -271,7 +279,7 @@ src/core/JobManager.s: src/core/JobManager.cpp.s
 
 # target to generate assembly for a file
 src/core/JobManager.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/JobManager.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/JobManager.cpp.s
 .PHONY : src/core/JobManager.cpp.s
 
 src/core/JobModel.obj: src/core/JobModel.cpp.obj
@@ -279,7 +287,7 @@ src/core/JobModel.obj: src/core/JobModel.cpp.obj
 
 # target to build an object file
 src/core/JobModel.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/JobModel.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/JobModel.cpp.obj
 .PHONY : src/core/JobModel.cpp.obj
 
 src/core/JobModel.i: src/core/JobModel.cpp.i
@@ -287,7 +295,7 @@ src/core/JobModel.i: src/core/JobModel.cpp.i
 
 # target to preprocess a source file
 src/core/JobModel.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/JobModel.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/JobModel.cpp.i
 .PHONY : src/core/JobModel.cpp.i
 
 src/core/JobModel.s: src/core/JobModel.cpp.s
@@ -295,7 +303,7 @@ src/core/JobModel.s: src/core/JobModel.cpp.s
 
 # target to generate assembly for a file
 src/core/JobModel.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/JobModel.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/JobModel.cpp.s
 .PHONY : src/core/JobModel.cpp.s
 
 src/core/Utils.obj: src/core/Utils.cpp.obj
@@ -303,7 +311,7 @@ src/core/Utils.obj: src/core/Utils.cpp.obj
 
 # target to build an object file
 src/core/Utils.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/Utils.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/Utils.cpp.obj
 .PHONY : src/core/Utils.cpp.obj
 
 src/core/Utils.i: src/core/Utils.cpp.i
@@ -311,7 +319,7 @@ src/core/Utils.i: src/core/Utils.cpp.i
 
 # target to preprocess a source file
 src/core/Utils.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/Utils.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/Utils.cpp.i
 .PHONY : src/core/Utils.cpp.i
 
 src/core/Utils.s: src/core/Utils.cpp.s
@@ -319,7 +327,7 @@ src/core/Utils.s: src/core/Utils.cpp.s
 
 # target to generate assembly for a file
 src/core/Utils.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/Utils.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/Utils.cpp.s
 .PHONY : src/core/Utils.cpp.s
 
 src/core/Worker.obj: src/core/Worker.cpp.obj
@@ -327,7 +335,7 @@ src/core/Worker.obj: src/core/Worker.cpp.obj
 
 # target to build an object file
 src/core/Worker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/Worker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/Worker.cpp.obj
 .PHONY : src/core/Worker.cpp.obj
 
 src/core/Worker.i: src/core/Worker.cpp.i
@@ -335,7 +343,7 @@ src/core/Worker.i: src/core/Worker.cpp.i
 
 # target to preprocess a source file
 src/core/Worker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/Worker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/Worker.cpp.i
 .PHONY : src/core/Worker.cpp.i
 
 src/core/Worker.s: src/core/Worker.cpp.s
@@ -343,7 +351,7 @@ src/core/Worker.s: src/core/Worker.cpp.s
 
 # target to generate assembly for a file
 src/core/Worker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/Worker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/Worker.cpp.s
 .PHONY : src/core/Worker.cpp.s
 
 src/core/WorkerFactory.obj: src/core/WorkerFactory.cpp.obj
@@ -351,7 +359,7 @@ src/core/WorkerFactory.obj: src/core/WorkerFactory.cpp.obj
 
 # target to build an object file
 src/core/WorkerFactory.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/WorkerFactory.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/WorkerFactory.cpp.obj
 .PHONY : src/core/WorkerFactory.cpp.obj
 
 src/core/WorkerFactory.i: src/core/WorkerFactory.cpp.i
@@ -359,7 +367,7 @@ src/core/WorkerFactory.i: src/core/WorkerFactory.cpp.i
 
 # target to preprocess a source file
 src/core/WorkerFactory.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/WorkerFactory.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/WorkerFactory.cpp.i
 .PHONY : src/core/WorkerFactory.cpp.i
 
 src/core/WorkerFactory.s: src/core/WorkerFactory.cpp.s
@@ -367,7 +375,7 @@ src/core/WorkerFactory.s: src/core/WorkerFactory.cpp.s
 
 # target to generate assembly for a file
 src/core/WorkerFactory.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/core/WorkerFactory.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/core/WorkerFactory.cpp.s
 .PHONY : src/core/WorkerFactory.cpp.s
 
 src/main.obj: src/main.cpp.obj
@@ -375,7 +383,7 @@ src/main.obj: src/main.cpp.obj
 
 # target to build an object file
 src/main.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/main.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/main.cpp.obj
 .PHONY : src/main.cpp.obj
 
 src/main.i: src/main.cpp.i
@@ -383,7 +391,7 @@ src/main.i: src/main.cpp.i
 
 # target to preprocess a source file
 src/main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/main.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/main.cpp.i
 .PHONY : src/main.cpp.i
 
 src/main.s: src/main.cpp.s
@@ -391,7 +399,7 @@ src/main.s: src/main.cpp.s
 
 # target to generate assembly for a file
 src/main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/main.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/main.cpp.s
 .PHONY : src/main.cpp.s
 
 src/ui/JobDetailsPane.obj: src/ui/JobDetailsPane.cpp.obj
@@ -399,7 +407,7 @@ src/ui/JobDetailsPane.obj: src/ui/JobDetailsPane.cpp.obj
 
 # target to build an object file
 src/ui/JobDetailsPane.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/JobDetailsPane.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/JobDetailsPane.cpp.obj
 .PHONY : src/ui/JobDetailsPane.cpp.obj
 
 src/ui/JobDetailsPane.i: src/ui/JobDetailsPane.cpp.i
@@ -407,7 +415,7 @@ src/ui/JobDetailsPane.i: src/ui/JobDetailsPane.cpp.i
 
 # target to preprocess a source file
 src/ui/JobDetailsPane.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/JobDetailsPane.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/JobDetailsPane.cpp.i
 .PHONY : src/ui/JobDetailsPane.cpp.i
 
 src/ui/JobDetailsPane.s: src/ui/JobDetailsPane.cpp.s
@@ -415,7 +423,7 @@ src/ui/JobDetailsPane.s: src/ui/JobDetailsPane.cpp.s
 
 # target to generate assembly for a file
 src/ui/JobDetailsPane.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/JobDetailsPane.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/JobDetailsPane.cpp.s
 .PHONY : src/ui/JobDetailsPane.cpp.s
 
 src/ui/JobListView.obj: src/ui/JobListView.cpp.obj
@@ -423,7 +431,7 @@ src/ui/JobListView.obj: src/ui/JobListView.cpp.obj
 
 # target to build an object file
 src/ui/JobListView.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/JobListView.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/JobListView.cpp.obj
 .PHONY : src/ui/JobListView.cpp.obj
 
 src/ui/JobListView.i: src/ui/JobListView.cpp.i
@@ -431,7 +439,7 @@ src/ui/JobListView.i: src/ui/JobListView.cpp.i
 
 # target to preprocess a source file
 src/ui/JobListView.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/JobListView.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/JobListView.cpp.i
 .PHONY : src/ui/JobListView.cpp.i
 
 src/ui/JobListView.s: src/ui/JobListView.cpp.s
@@ -439,7 +447,7 @@ src/ui/JobListView.s: src/ui/JobListView.cpp.s
 
 # target to generate assembly for a file
 src/ui/JobListView.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/JobListView.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/JobListView.cpp.s
 .PHONY : src/ui/JobListView.cpp.s
 
 src/ui/MainWindow.obj: src/ui/MainWindow.cpp.obj
@@ -447,7 +455,7 @@ src/ui/MainWindow.obj: src/ui/MainWindow.cpp.obj
 
 # target to build an object file
 src/ui/MainWindow.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/MainWindow.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/MainWindow.cpp.obj
 .PHONY : src/ui/MainWindow.cpp.obj
 
 src/ui/MainWindow.i: src/ui/MainWindow.cpp.i
@@ -455,7 +463,7 @@ src/ui/MainWindow.i: src/ui/MainWindow.cpp.i
 
 # target to preprocess a source file
 src/ui/MainWindow.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/MainWindow.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/MainWindow.cpp.i
 .PHONY : src/ui/MainWindow.cpp.i
 
 src/ui/MainWindow.s: src/ui/MainWindow.cpp.s
@@ -463,7 +471,7 @@ src/ui/MainWindow.s: src/ui/MainWindow.cpp.s
 
 # target to generate assembly for a file
 src/ui/MainWindow.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/MainWindow.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/MainWindow.cpp.s
 .PHONY : src/ui/MainWindow.cpp.s
 
 src/ui/SettingsDialog.obj: src/ui/SettingsDialog.cpp.obj
@@ -471,7 +479,7 @@ src/ui/SettingsDialog.obj: src/ui/SettingsDialog.cpp.obj
 
 # target to build an object file
 src/ui/SettingsDialog.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/SettingsDialog.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/SettingsDialog.cpp.obj
 .PHONY : src/ui/SettingsDialog.cpp.obj
 
 src/ui/SettingsDialog.i: src/ui/SettingsDialog.cpp.i
@@ -479,7 +487,7 @@ src/ui/SettingsDialog.i: src/ui/SettingsDialog.cpp.i
 
 # target to preprocess a source file
 src/ui/SettingsDialog.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/SettingsDialog.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/SettingsDialog.cpp.i
 .PHONY : src/ui/SettingsDialog.cpp.i
 
 src/ui/SettingsDialog.s: src/ui/SettingsDialog.cpp.s
@@ -487,7 +495,7 @@ src/ui/SettingsDialog.s: src/ui/SettingsDialog.cpp.s
 
 # target to generate assembly for a file
 src/ui/SettingsDialog.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/SettingsDialog.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/SettingsDialog.cpp.s
 .PHONY : src/ui/SettingsDialog.cpp.s
 
 src/ui/components/JobBaseWidget.obj: src/ui/components/JobBaseWidget.cpp.obj
@@ -495,7 +503,7 @@ src/ui/components/JobBaseWidget.obj: src/ui/components/JobBaseWidget.cpp.obj
 
 # target to build an object file
 src/ui/components/JobBaseWidget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/components/JobBaseWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/components/JobBaseWidget.cpp.obj
 .PHONY : src/ui/components/JobBaseWidget.cpp.obj
 
 src/ui/components/JobBaseWidget.i: src/ui/components/JobBaseWidget.cpp.i
@@ -503,7 +511,7 @@ src/ui/components/JobBaseWidget.i: src/ui/components/JobBaseWidget.cpp.i
 
 # target to preprocess a source file
 src/ui/components/JobBaseWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/components/JobBaseWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/components/JobBaseWidget.cpp.i
 .PHONY : src/ui/components/JobBaseWidget.cpp.i
 
 src/ui/components/JobBaseWidget.s: src/ui/components/JobBaseWidget.cpp.s
@@ -511,7 +519,7 @@ src/ui/components/JobBaseWidget.s: src/ui/components/JobBaseWidget.cpp.s
 
 # target to generate assembly for a file
 src/ui/components/JobBaseWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/components/JobBaseWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/components/JobBaseWidget.cpp.s
 .PHONY : src/ui/components/JobBaseWidget.cpp.s
 
 src/ui/components/SidebarWidget.obj: src/ui/components/SidebarWidget.cpp.obj
@@ -519,7 +527,7 @@ src/ui/components/SidebarWidget.obj: src/ui/components/SidebarWidget.cpp.obj
 
 # target to build an object file
 src/ui/components/SidebarWidget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/components/SidebarWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/components/SidebarWidget.cpp.obj
 .PHONY : src/ui/components/SidebarWidget.cpp.obj
 
 src/ui/components/SidebarWidget.i: src/ui/components/SidebarWidget.cpp.i
@@ -527,7 +535,7 @@ src/ui/components/SidebarWidget.i: src/ui/components/SidebarWidget.cpp.i
 
 # target to preprocess a source file
 src/ui/components/SidebarWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/components/SidebarWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/components/SidebarWidget.cpp.i
 .PHONY : src/ui/components/SidebarWidget.cpp.i
 
 src/ui/components/SidebarWidget.s: src/ui/components/SidebarWidget.cpp.s
@@ -535,7 +543,7 @@ src/ui/components/SidebarWidget.s: src/ui/components/SidebarWidget.cpp.s
 
 # target to generate assembly for a file
 src/ui/components/SidebarWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/components/SidebarWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/components/SidebarWidget.cpp.s
 .PHONY : src/ui/components/SidebarWidget.cpp.s
 
 src/ui/modules/BackupWidget.obj: src/ui/modules/BackupWidget.cpp.obj
@@ -543,7 +551,7 @@ src/ui/modules/BackupWidget.obj: src/ui/modules/BackupWidget.cpp.obj
 
 # target to build an object file
 src/ui/modules/BackupWidget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/BackupWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/BackupWidget.cpp.obj
 .PHONY : src/ui/modules/BackupWidget.cpp.obj
 
 src/ui/modules/BackupWidget.i: src/ui/modules/BackupWidget.cpp.i
@@ -551,7 +559,7 @@ src/ui/modules/BackupWidget.i: src/ui/modules/BackupWidget.cpp.i
 
 # target to preprocess a source file
 src/ui/modules/BackupWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/BackupWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/BackupWidget.cpp.i
 .PHONY : src/ui/modules/BackupWidget.cpp.i
 
 src/ui/modules/BackupWidget.s: src/ui/modules/BackupWidget.cpp.s
@@ -559,7 +567,7 @@ src/ui/modules/BackupWidget.s: src/ui/modules/BackupWidget.cpp.s
 
 # target to generate assembly for a file
 src/ui/modules/BackupWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/BackupWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/BackupWidget.cpp.s
 .PHONY : src/ui/modules/BackupWidget.cpp.s
 
 src/ui/modules/ImageWidget.obj: src/ui/modules/ImageWidget.cpp.obj
@@ -567,7 +575,7 @@ src/ui/modules/ImageWidget.obj: src/ui/modules/ImageWidget.cpp.obj
 
 # target to build an object file
 src/ui/modules/ImageWidget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/ImageWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/ImageWidget.cpp.obj
 .PHONY : src/ui/modules/ImageWidget.cpp.obj
 
 src/ui/modules/ImageWidget.i: src/ui/modules/ImageWidget.cpp.i
@@ -575,7 +583,7 @@ src/ui/modules/ImageWidget.i: src/ui/modules/ImageWidget.cpp.i
 
 # target to preprocess a source file
 src/ui/modules/ImageWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/ImageWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/ImageWidget.cpp.i
 .PHONY : src/ui/modules/ImageWidget.cpp.i
 
 src/ui/modules/ImageWidget.s: src/ui/modules/ImageWidget.cpp.s
@@ -583,7 +591,7 @@ src/ui/modules/ImageWidget.s: src/ui/modules/ImageWidget.cpp.s
 
 # target to generate assembly for a file
 src/ui/modules/ImageWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/ImageWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/ImageWidget.cpp.s
 .PHONY : src/ui/modules/ImageWidget.cpp.s
 
 src/ui/modules/RenamerWidget.obj: src/ui/modules/RenamerWidget.cpp.obj
@@ -591,7 +599,7 @@ src/ui/modules/RenamerWidget.obj: src/ui/modules/RenamerWidget.cpp.obj
 
 # target to build an object file
 src/ui/modules/RenamerWidget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/RenamerWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/RenamerWidget.cpp.obj
 .PHONY : src/ui/modules/RenamerWidget.cpp.obj
 
 src/ui/modules/RenamerWidget.i: src/ui/modules/RenamerWidget.cpp.i
@@ -599,7 +607,7 @@ src/ui/modules/RenamerWidget.i: src/ui/modules/RenamerWidget.cpp.i
 
 # target to preprocess a source file
 src/ui/modules/RenamerWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/RenamerWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/RenamerWidget.cpp.i
 .PHONY : src/ui/modules/RenamerWidget.cpp.i
 
 src/ui/modules/RenamerWidget.s: src/ui/modules/RenamerWidget.cpp.s
@@ -607,7 +615,7 @@ src/ui/modules/RenamerWidget.s: src/ui/modules/RenamerWidget.cpp.s
 
 # target to generate assembly for a file
 src/ui/modules/RenamerWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/RenamerWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/RenamerWidget.cpp.s
 .PHONY : src/ui/modules/RenamerWidget.cpp.s
 
 src/ui/modules/SorterWidget.obj: src/ui/modules/SorterWidget.cpp.obj
@@ -615,7 +623,7 @@ src/ui/modules/SorterWidget.obj: src/ui/modules/SorterWidget.cpp.obj
 
 # target to build an object file
 src/ui/modules/SorterWidget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/SorterWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/SorterWidget.cpp.obj
 .PHONY : src/ui/modules/SorterWidget.cpp.obj
 
 src/ui/modules/SorterWidget.i: src/ui/modules/SorterWidget.cpp.i
@@ -623,7 +631,7 @@ src/ui/modules/SorterWidget.i: src/ui/modules/SorterWidget.cpp.i
 
 # target to preprocess a source file
 src/ui/modules/SorterWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/SorterWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/SorterWidget.cpp.i
 .PHONY : src/ui/modules/SorterWidget.cpp.i
 
 src/ui/modules/SorterWidget.s: src/ui/modules/SorterWidget.cpp.s
@@ -631,7 +639,7 @@ src/ui/modules/SorterWidget.s: src/ui/modules/SorterWidget.cpp.s
 
 # target to generate assembly for a file
 src/ui/modules/SorterWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/SorterWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/SorterWidget.cpp.s
 .PHONY : src/ui/modules/SorterWidget.cpp.s
 
 src/ui/modules/VideoWidget.obj: src/ui/modules/VideoWidget.cpp.obj
@@ -639,7 +647,7 @@ src/ui/modules/VideoWidget.obj: src/ui/modules/VideoWidget.cpp.obj
 
 # target to build an object file
 src/ui/modules/VideoWidget.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/VideoWidget.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/VideoWidget.cpp.obj
 .PHONY : src/ui/modules/VideoWidget.cpp.obj
 
 src/ui/modules/VideoWidget.i: src/ui/modules/VideoWidget.cpp.i
@@ -647,7 +655,7 @@ src/ui/modules/VideoWidget.i: src/ui/modules/VideoWidget.cpp.i
 
 # target to preprocess a source file
 src/ui/modules/VideoWidget.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/VideoWidget.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/VideoWidget.cpp.i
 .PHONY : src/ui/modules/VideoWidget.cpp.i
 
 src/ui/modules/VideoWidget.s: src/ui/modules/VideoWidget.cpp.s
@@ -655,7 +663,7 @@ src/ui/modules/VideoWidget.s: src/ui/modules/VideoWidget.cpp.s
 
 # target to generate assembly for a file
 src/ui/modules/VideoWidget.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/ui/modules/VideoWidget.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/ui/modules/VideoWidget.cpp.s
 .PHONY : src/ui/modules/VideoWidget.cpp.s
 
 src/workers/CopyWorker.obj: src/workers/CopyWorker.cpp.obj
@@ -663,7 +671,7 @@ src/workers/CopyWorker.obj: src/workers/CopyWorker.cpp.obj
 
 # target to build an object file
 src/workers/CopyWorker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/CopyWorker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/CopyWorker.cpp.obj
 .PHONY : src/workers/CopyWorker.cpp.obj
 
 src/workers/CopyWorker.i: src/workers/CopyWorker.cpp.i
@@ -671,7 +679,7 @@ src/workers/CopyWorker.i: src/workers/CopyWorker.cpp.i
 
 # target to preprocess a source file
 src/workers/CopyWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/CopyWorker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/CopyWorker.cpp.i
 .PHONY : src/workers/CopyWorker.cpp.i
 
 src/workers/CopyWorker.s: src/workers/CopyWorker.cpp.s
@@ -679,7 +687,7 @@ src/workers/CopyWorker.s: src/workers/CopyWorker.cpp.s
 
 # target to generate assembly for a file
 src/workers/CopyWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/CopyWorker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/CopyWorker.cpp.s
 .PHONY : src/workers/CopyWorker.cpp.s
 
 src/workers/FFmpegWorker.obj: src/workers/FFmpegWorker.cpp.obj
@@ -687,7 +695,7 @@ src/workers/FFmpegWorker.obj: src/workers/FFmpegWorker.cpp.obj
 
 # target to build an object file
 src/workers/FFmpegWorker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/FFmpegWorker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/FFmpegWorker.cpp.obj
 .PHONY : src/workers/FFmpegWorker.cpp.obj
 
 src/workers/FFmpegWorker.i: src/workers/FFmpegWorker.cpp.i
@@ -695,7 +703,7 @@ src/workers/FFmpegWorker.i: src/workers/FFmpegWorker.cpp.i
 
 # target to preprocess a source file
 src/workers/FFmpegWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/FFmpegWorker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/FFmpegWorker.cpp.i
 .PHONY : src/workers/FFmpegWorker.cpp.i
 
 src/workers/FFmpegWorker.s: src/workers/FFmpegWorker.cpp.s
@@ -703,7 +711,7 @@ src/workers/FFmpegWorker.s: src/workers/FFmpegWorker.cpp.s
 
 # target to generate assembly for a file
 src/workers/FFmpegWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/FFmpegWorker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/FFmpegWorker.cpp.s
 .PHONY : src/workers/FFmpegWorker.cpp.s
 
 src/workers/ImageWorker.obj: src/workers/ImageWorker.cpp.obj
@@ -711,7 +719,7 @@ src/workers/ImageWorker.obj: src/workers/ImageWorker.cpp.obj
 
 # target to build an object file
 src/workers/ImageWorker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/ImageWorker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/ImageWorker.cpp.obj
 .PHONY : src/workers/ImageWorker.cpp.obj
 
 src/workers/ImageWorker.i: src/workers/ImageWorker.cpp.i
@@ -719,7 +727,7 @@ src/workers/ImageWorker.i: src/workers/ImageWorker.cpp.i
 
 # target to preprocess a source file
 src/workers/ImageWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/ImageWorker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/ImageWorker.cpp.i
 .PHONY : src/workers/ImageWorker.cpp.i
 
 src/workers/ImageWorker.s: src/workers/ImageWorker.cpp.s
@@ -727,7 +735,7 @@ src/workers/ImageWorker.s: src/workers/ImageWorker.cpp.s
 
 # target to generate assembly for a file
 src/workers/ImageWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/ImageWorker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/ImageWorker.cpp.s
 .PHONY : src/workers/ImageWorker.cpp.s
 
 src/workers/MetadataWorker.obj: src/workers/MetadataWorker.cpp.obj
@@ -735,7 +743,7 @@ src/workers/MetadataWorker.obj: src/workers/MetadataWorker.cpp.obj
 
 # target to build an object file
 src/workers/MetadataWorker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/MetadataWorker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/MetadataWorker.cpp.obj
 .PHONY : src/workers/MetadataWorker.cpp.obj
 
 src/workers/MetadataWorker.i: src/workers/MetadataWorker.cpp.i
@@ -743,7 +751,7 @@ src/workers/MetadataWorker.i: src/workers/MetadataWorker.cpp.i
 
 # target to preprocess a source file
 src/workers/MetadataWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/MetadataWorker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/MetadataWorker.cpp.i
 .PHONY : src/workers/MetadataWorker.cpp.i
 
 src/workers/MetadataWorker.s: src/workers/MetadataWorker.cpp.s
@@ -751,7 +759,7 @@ src/workers/MetadataWorker.s: src/workers/MetadataWorker.cpp.s
 
 # target to generate assembly for a file
 src/workers/MetadataWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/MetadataWorker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/MetadataWorker.cpp.s
 .PHONY : src/workers/MetadataWorker.cpp.s
 
 src/workers/SorterWorker.obj: src/workers/SorterWorker.cpp.obj
@@ -759,7 +767,7 @@ src/workers/SorterWorker.obj: src/workers/SorterWorker.cpp.obj
 
 # target to build an object file
 src/workers/SorterWorker.cpp.obj:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/SorterWorker.cpp.obj
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/SorterWorker.cpp.obj
 .PHONY : src/workers/SorterWorker.cpp.obj
 
 src/workers/SorterWorker.i: src/workers/SorterWorker.cpp.i
@@ -767,7 +775,7 @@ src/workers/SorterWorker.i: src/workers/SorterWorker.cpp.i
 
 # target to preprocess a source file
 src/workers/SorterWorker.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/SorterWorker.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/SorterWorker.cpp.i
 .PHONY : src/workers/SorterWorker.cpp.i
 
 src/workers/SorterWorker.s: src/workers/SorterWorker.cpp.s
@@ -775,7 +783,7 @@ src/workers/SorterWorker.s: src/workers/SorterWorker.cpp.s
 
 # target to generate assembly for a file
 src/workers/SorterWorker.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles\SMSorter.dir\build.make CMakeFiles/SMSorter.dir/src/workers/SorterWorker.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\SimpleMediaSorter-MP.dir\build.make CMakeFiles/SimpleMediaSorter-MP.dir/src/workers/SorterWorker.cpp.s
 .PHONY : src/workers/SorterWorker.cpp.s
 
 # Help Target
@@ -786,12 +794,13 @@ help:
 	@echo ... depend
 	@echo ... edit_cache
 	@echo ... rebuild_cache
-	@echo ... SMSorter_autogen
-	@echo ... SMSorter_autogen_timestamp_deps
-	@echo ... SMSorter
-	@echo ... SMSorter_autogen/mocs_compilation.obj
-	@echo ... SMSorter_autogen/mocs_compilation.i
-	@echo ... SMSorter_autogen/mocs_compilation.s
+	@echo ... SimpleMediaSorter-MP_autogen
+	@echo ... SimpleMediaSorter-MP_autogen_timestamp_deps
+	@echo ... SimpleMediaSorter-MP
+	@echo ... SimpleMediaSorter-MP_autogen/mocs_compilation.obj
+	@echo ... SimpleMediaSorter-MP_autogen/mocs_compilation.i
+	@echo ... SimpleMediaSorter-MP_autogen/mocs_compilation.s
+	@echo ... resources.obj
 	@echo ... src/core/DatabaseManager.obj
 	@echo ... src/core/DatabaseManager.i
 	@echo ... src/core/DatabaseManager.s
