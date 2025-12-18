@@ -1,10 +1,17 @@
 # SimpleMediaSorter-MP
 
-**SimpleMediaSorter-MP** is a premium, modular media management suite built with C++ and Qt 6. It provides a powerful set of tools to organize, rename, backup, and process your media collection with a modern, responsive user interface.
+**SimpleMediaSorter-MP** is a premium, modular media management suite built with C++ and Qt 6. It provides a powerful set of tools to organize, rename, backup, and process your media collection with a modern, responsive user interface.   
+
+<img src="SimpleMediaSorter-MP_icon.png" alt="Logo" style="width:120px;">
 
 ![Version](https://img.shields.io/badge/version-1.0.0.5-blue.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Qt](https://img.shields.io/badge/Qt-6.10.1-41cd52.svg)
+![CMake](https://img.shields.io/badge/CMake-3.16+-blue.svg)
+![MinGW](https://img.shields.io/badge/MinGW-64-bit-green.svg)
+![FFmpeg](https://img.shields.io/badge/FFmpeg-4.4.1-blue.svg)
+
+Project is based on the legacy version of Simple Media Sorter: https://github.com/idlerahim/SimpleMediaSorter
 
 ## ✨ Features
 
