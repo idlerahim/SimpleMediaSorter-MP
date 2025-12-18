@@ -8,7 +8,7 @@
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 ![Qt](https://img.shields.io/badge/Qt-6.10.1-41cd52.svg)
 ![CMake](https://img.shields.io/badge/CMake-3.16+-blue.svg)
-![MinGW](https://img.shields.io/badge/MinGW-64-bit-green.svg)
+![MinGW](https://img.shields.io/badge/MinGW-64--bit-green)
 ![FFmpeg](https://img.shields.io/badge/FFmpeg-4.4.1-blue.svg)
 
 Project is based on the legacy version of Simple Media Sorter: https://github.com/idlerahim/SimpleMediaSorter
