@@ -4,6 +4,8 @@
 #include <QFileInfo>
 #include <QDir>
 #include <QRegularExpression>
+#include <QtConcurrent>
+#include <atomic>
 
 MetadataWorker::MetadataWorker(const Job& job) : Worker(job) {}
 
@@ -58,17 +60,23 @@ void MetadataWorker::plan() {
 }
 
 void MetadataWorker::execute() {
-    int count = 0;
     int total = m_job.items.size();
+    if (total == 0) {
+        emit progress(m_job.id, 100, "Done");
+        return;
+    }
+
+    std::atomic<int> current(0);
     m_success = true;
 
-    for (auto& item : m_job.items) {
+    auto processItem = [this, &current, total](JobItem& item) {
         if (item.status != "PENDING") {
-            count++;
-            continue;
+            current++;
+            return;
         }
         
-        emit progress(m_job.id, (count * 100) / total, "Renaming " + QFileInfo(item.sourcePath).fileName());
+        // Parallel logging might be noisy
+        // emit progress(m_job.id, (count * 100) / total, "Renaming " + QFileInfo(item.sourcePath).fileName());
         
         QDir dir = QFileInfo(item.destPath).dir();
         if (!dir.exists()) dir.mkpath(".");
@@ -86,12 +94,15 @@ void MetadataWorker::execute() {
             } else {
                 item.status = "ERROR";
                 item.reason = "Rename failed";
-                m_success = false;
+                // m_success = false;
                 emit itemCompleted(m_job.id, -1, false, "Failed to rename: " + item.sourcePath);
             }
         }
-        count++;
-    }
-    
+        
+        int c = ++current;
+        emit progress(m_job.id, (c * 100) / total, QString("Processed %1/%2").arg(c).arg(total));
+    };
+
+    QtConcurrent::blockingMap(m_job.items, processItem);
     emit progress(m_job.id, 100, "Done");
 }

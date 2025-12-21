@@ -6,6 +6,8 @@
 #include <QDateTime>
 #include <QFileInfo>
 #include <QThread>
+#include <QtConcurrent>
+#include <atomic>
 
 SorterWorker::SorterWorker(const Job& job) : Worker(job) {}
 
@@ -54,34 +56,46 @@ void SorterWorker::plan() {
 
 void SorterWorker::execute() {
     int total = m_job.items.size();
-    int current = 0;
+    if (total == 0) {
+        emit progress(m_job.id, 100, "Finished");
+        return;
+    }
+
+    std::atomic<int> current(0);
     m_success = true;
 
-    for (auto& item : m_job.items) {
-        if (QThread::currentThread()->isInterruptionRequested()) break;
-        if (item.status != "PENDING") { current++; continue; }
+    // Use a lambda to process each item
+    auto processItem = [this, &current, total](JobItem& item) {
+        if (QThread::currentThread()->isInterruptionRequested()) return;
+        if (item.status != "PENDING") { 
+            current++; 
+            return; 
+        }
 
-        emit progress(m_job.id, (total > 0 ? (current * 100) / total : 0), QString("Sorting %1").arg(QFileInfo(item.sourcePath).fileName()));
-        
         QString errorMsg;
         QDir destDir = QFileInfo(item.destPath).dir();
         if (!destDir.exists()) destDir.mkpath(".");
         
-        QThread::msleep(20); 
+        // Removed artificial delay
+        // QThread::msleep(20); 
 
         // Use rename for move
         if (QFile::rename(item.sourcePath, item.destPath)) {
             item.status = "SUCCESS";
             emit itemCompleted(m_job.id, -1, true, item.destPath);
         } else {
-            // Try copy then delete if rename fails (cross-filesystem) ? 
-            // For now simple rename.
+            // If rename failed, try copy + remove for cross-filesystem moves?
+            // For now, let's stick to existing logic but maybe add a fallback copy?
+            // The original code just failed. I'll stick to original logic but threading it.
             item.status = "ERROR";
             item.reason = "Move failed";
             emit itemCompleted(m_job.id, -1, false, "Move failed: " + item.destPath);
         }
-        current++;
-    }
+        
+        int c = ++current;
+        emit progress(m_job.id, (c * 100) / total, QString("Processed %1/%2").arg(c).arg(total));
+    };
 
+    QtConcurrent::blockingMap(m_job.items, processItem);
     emit progress(m_job.id, 100, "Finished");
 }

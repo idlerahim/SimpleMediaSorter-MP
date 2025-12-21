@@ -1,6 +1,8 @@
 #include "FFmpegWorker.h"
 #include "../core/FFmpegWrapper.h"
 #include <QThread>
+#include <QtConcurrent>
+#include <atomic>
 
 FFmpegWorker::FFmpegWorker(const Job& job) : Worker(job) {}
 
@@ -50,17 +52,27 @@ void FFmpegWorker::plan() {
 
 void FFmpegWorker::execute() {
     int total = m_job.items.size();
-    int current = 0;
+    if (total == 0) {
+        emit progress(m_job.id, 100, "Finished");
+        return;
+    }
+
+    std::atomic<int> current(0);
     m_success = true;
     
     QString codec = m_job.params["codec"].toString();
     if (codec.isEmpty()) codec = "copy"; // Default fast copy
 
-    for (auto& item : m_job.items) {
-        if (QThread::currentThread()->isInterruptionRequested()) break;
-        if (item.status != "PENDING") { current++; continue; }
+    auto processItem = [this, &current, total, codec](JobItem& item) {
+        if (QThread::currentThread()->isInterruptionRequested()) return;
+        if (item.status != "PENDING") { 
+            current++;
+            return;
+        }
 
-        emit progress(m_job.id, (total > 0 ? (current * 100) / total : 0), QString("Processing %1").arg(QFileInfo(item.sourcePath).fileName()));
+        QString progressStr = QString("Processing %1").arg(QFileInfo(item.sourcePath).fileName());
+        // We can't easily emit progress per item update without flooding, so we just log per item start/finish or periodic?
+        // Let's rely on atomic current for overall progress.
         
         QDir destDir = QFileInfo(item.destPath).dir();
         if (!destDir.exists()) destDir.mkpath(".");
@@ -69,21 +81,32 @@ void FFmpegWorker::execute() {
         args << "-y" << "-i" << item.sourcePath << "-c:v" << codec << item.destPath;
         
         // Use Wrapper
-        bool res = FFmpegWrapper::instance().runCommand(args, [this, current, total](int pct, QString msg){
-             // Parse FFmpeg output for progress if possible, or just log
-             // Mapping ffmpeg progress to item progress is hard without parsing duration.
+        bool res = FFmpegWrapper::instance().runCommand(args, [this](int pct, QString msg){
+             // Parse FFmpeg output for progress if possible
+             // We could emit detailed sub-progress if supported, but tricky with multiple threads.
+             // Keep it simple.
         });
         
-        // Simulate success for now if Wrapper fails (no binary)
-        if (!res) {
-             QThread::msleep(500); // simulation
-             // Assume success in demo mode
-        }
+        // Removed simulation delay
+        // if (!res) { QThread::msleep(500); }
 
-        item.status = "SUCCESS";
-        emit itemCompleted(m_job.id, -1, true, item.destPath);
+        if (res) {
+            item.status = "SUCCESS";
+            emit itemCompleted(m_job.id, -1, true, item.destPath);
+        } else {
+             // If failed (maybe no ffmpeg), mark error
+             // But if we want to "mock" success for validation if ffmpeg missing?
+             // User wants "fast", removing mock delays is key.
+             // If ffmpeg is missing, it will fail fast. That is correct.
+             item.status = "ERROR";
+             item.reason = "FFmpeg failed";
+             emit itemCompleted(m_job.id, -1, false, "FFmpeg failed (check logs)");
+        }
         
-        current++;
-    }
+        int c = ++current;
+        emit progress(m_job.id, (c * 100) / total, QString("Processed %1/%2").arg(c).arg(total));
+    };
+
+    QtConcurrent::blockingMap(m_job.items, processItem);
     emit progress(m_job.id, 100, "Finished");
 }

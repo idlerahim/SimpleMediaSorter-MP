@@ -3,6 +3,8 @@
 #include <QDir>
 #include <QDirIterator>
 #include <QThread>
+#include <QtConcurrent>
+#include <atomic>
 
 CopyWorker::CopyWorker(const Job& job) : Worker(job) {}
 
@@ -43,34 +45,55 @@ void CopyWorker::plan() {
 
 void CopyWorker::execute() {
     int total = m_job.items.size();
-    int current = 0;
+    if (total == 0) {
+        emit progress(m_job.id, 100, "Finished");
+        return;
+    }
+
+    std::atomic<int> current(0);
+    // m_success is tracked per item, but we can track overall success if needed.
+    // For now, let's say overall is success if no fatal errors occurred? 
+    // Actually, Worker.h has m_success member.
     m_success = true;
 
-    for (auto& item : m_job.items) {
-        if (QThread::currentThread()->isInterruptionRequested()) break;
-        if (item.status != "PENDING") { current++; continue; }
+    // Use a lambda to process each item
+    auto processItem = [this, &current, total](JobItem& item) {
+        if (QThread::currentThread()->isInterruptionRequested()) return;
+        if (item.status != "PENDING") { 
+            current++; 
+            return; 
+        }
 
-        emit progress(m_job.id, (total > 0 ? (current * 100) / total : 0), QString("Copying %1").arg(QFileInfo(item.sourcePath).fileName()));
+        // Emit progress periodically or for every item?
+        // Emitting signals from many threads rapidly can be overwhelming.
+        // Let's emit only on completion or periodically.
+        // Since we are inside a blockingMap, we are in a thread pool thread.
         
         QString errorMsg;
         // Ensure dest dir exists
+        // Note: multiple threads creating same dir might be racey, but mkpath is generally safe or fails gracefully.
         QDir destDir = QFileInfo(item.destPath).dir();
         if (!destDir.exists()) destDir.mkpath(".");
-        
-        // Simulate work
-        QThread::msleep(50); 
+
+        // Removed artificial delay
+        // QThread::msleep(50); 
 
         if (Utils::safeCopy(item.sourcePath, item.destPath, errorMsg)) {
             item.status = "SUCCESS";
+            // emit itemCompleted is thread-safe (queued connection)
             emit itemCompleted(m_job.id, -1, true, item.destPath);
         } else {
             item.status = "ERROR";
             item.reason = errorMsg;
-            // m_success = false; // Optional: fail whole job or just item
             emit itemCompleted(m_job.id, -1, false, errorMsg);
         }
-        current++;
-    }
+        
+        int c = ++current;
+        emit progress(m_job.id, (c * 100) / total, QString("Processed %1/%2").arg(c).arg(total));
+    };
+
+    // Use QtConcurrent::blockingMap to process in parallel and wait for finish
+    QtConcurrent::blockingMap(m_job.items, processItem);
 
     emit progress(m_job.id, 100, "Finished");
 }

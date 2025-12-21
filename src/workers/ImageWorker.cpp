@@ -3,6 +3,8 @@
 #include <QDirIterator>
 #include <QImage>
 #include <QThread>
+#include <QtConcurrent>
+#include <atomic>
 
 ImageWorker::ImageWorker(const Job& job) : Worker(job) {}
 
@@ -49,7 +51,12 @@ void ImageWorker::plan() {
 
 void ImageWorker::execute() {
     int total = m_job.items.size();
-    int current = 0;
+    if (total == 0) {
+        emit progress(m_job.id, 100, "Finished");
+        return;
+    }
+
+    std::atomic<int> current(0);
     m_success = true;
     
     int width = m_job.params["width"].toInt();
@@ -57,12 +64,15 @@ void ImageWorker::execute() {
     QString format = m_job.params["format"].toString();
     if (quality <= 0) quality = 90;
 
-    for (auto& item : m_job.items) {
-        if (QThread::currentThread()->isInterruptionRequested()) break;
-        if (item.status != "PENDING") { current++; continue; }
+    // Use a lambda to process each item
+    auto processItem = [this, &current, total, width, quality, format](JobItem& item) {
+        if (QThread::currentThread()->isInterruptionRequested()) return;
+        if (item.status != "PENDING") { 
+            current++;
+            return; 
+        }
 
-        emit progress(m_job.id, (total > 0 ? (current * 100) / total : 0), QString("Processing %1").arg(QFileInfo(item.sourcePath).fileName()));
-        
+        // Parallel processing of images
         QDir destDir = QFileInfo(item.destPath).dir();
         if (!destDir.exists()) destDir.mkpath(".");
 
@@ -85,7 +95,11 @@ void ImageWorker::execute() {
             item.reason = "Load failed";
             emit itemCompleted(m_job.id, -1, false, "Load failed: " + item.sourcePath);
         }
-        current++;
-    }
+        
+        int c = ++current;
+        emit progress(m_job.id, (c * 100) / total, QString("Processed %1/%2").arg(c).arg(total));
+    };
+
+    QtConcurrent::blockingMap(m_job.items, processItem);
     emit progress(m_job.id, 100, "Finished");
 }
